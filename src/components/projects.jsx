@@ -1,10 +1,10 @@
 import React from "react";
-import image1 from "../assets/tickethiveimg.png";
+
 import image2 from "../assets/shopi.jpg";
 import image3 from "../assets/rooftop.jpg";
 import image4 from "../assets/road.jpg";
 import image5 from "../assets/genai.png";
-import image6 from "../assets/delishdinehubimg.png";
+
 
 const projects = [
   {
