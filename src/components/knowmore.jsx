@@ -52,7 +52,7 @@ const KnowMore = () => {
                 <h4 className="text-blue-500 text-md transition duration-300">Position of Responsibility</h4>
                 <ul className="text-gray-300 list-decimal marker:text-blue-500 pl-5 text-sm mt-2">
                   <li className="hover:text-gray-100 transition duration-300">Technical Head, Animeverse - Official Anime Society, ADGIPS</li>
-                  <li className="hover:text-gray-100 transition duration-300">Served as Technical Head, E-Cell DTU</li>
+                  <li className="hover:text-gray-100 transition duration-300">Served as Technical Head, E-Cell ADGIPS</li>
                   <li className="hover:text-gray-100 transition duration-300">Founding Enginner, Lagoon</li>
                 </ul>
               </div>
