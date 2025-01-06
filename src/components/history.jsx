@@ -12,10 +12,19 @@ const experiences = [
   {
     role: "Web Developer",
     location: "Kapliash SSS Pvt. Ltd",
-    duration: "May 2024 - Aug 2024",
+    duration: "May 2024 - July 2024",
     description:
       "Developed, and maintained web applications for NEET and JEE students using HTML, CSS, JavaScript, React.js",
   },
+   
+  {
+    role: "Web Developer",
+    location: "ISRO(Indian National Space and Aeronautics Agency)",
+    duration: "Aug 2024 - Sept 2024",
+    description:
+      "Developed, and maintained web applications for ISRO by contributing in their all types of websites",
+  },
+
 ];
 
 const Timeline = () => {
