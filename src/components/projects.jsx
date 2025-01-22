@@ -13,15 +13,15 @@ import travel from '../assets/travel.png'
 
 const projects = [
 
-  {
-    id: 1,
-    name: "Banana Chips remake",
-    description:
-      "A remake of the original Kerala Banana Chips website, created as a practice project. This responsive website highlights the rich flavors of traditional Kerala banana chips with an appealing design, smooth navigation, and a focus on showcasing the product’s authenticity and quality.",
-    image: banana,
-    link: "https://web4-script-reimagine-round1.vercel.app/",
-    techStack: ["React", "Tailwind CSS", "Nodejs", "DALLE"],
-  },
+  // {
+  //   id: 1,
+  //   name: "Banana Chips remake",
+  //   description:
+  //     "A remake of the original Kerala Banana Chips website, created as a practice project. This responsive website highlights the rich flavors of traditional Kerala banana chips with an appealing design, smooth navigation, and a focus on showcasing the product’s authenticity and quality.",
+  //   image: banana,
+  //   link: "https://web4-script-reimagine-round1.vercel.app/",
+  //   techStack: ["React", "Tailwind CSS", "Nodejs", "DALLE"],
+  // },
 
   {
     id: 2,
