@@ -9,9 +9,9 @@ const Header = () => {
   };
   useEffect(() => {
     const timer = setTimeout(() => {
-      setIsLogoAnimated(true); 
-    }, 100); 
-    return () => clearTimeout(timer); 
+      setIsLogoAnimated(true);
+    }, 100);
+    return () => clearTimeout(timer);
   }, []);
 
   return (
@@ -44,8 +44,14 @@ const Header = () => {
               <span className="underline-effect">Contact</span>
             </a>
           </nav>
+          {/* <a
+            href="https://drive.google.com/file/d/1FCdVUAOqLg6O2owtdfxRuT3OmMzpvCkh/uc?export=download"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-2 bg-black border-2 border-blue-500 text-blue-500 font-semibold text-sm rounded-md shadow-md hover:shadow-lg hover:bg-blue-500 hover:text-white hover:border-black hover:scale-105 transition-transform duration-300"
+          > */}
           <a
-            href="https://drive.google.com/file/d/1FCdVUAOqLg6O2owtdfxRuT3OmMzpvCkh/view?usp=sharing"
+            href="https://drive.google.com/uc?export=download&id=1FCdVUAOqLg6O2owtdfxRuT3OmMzpvCkh"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-2 bg-black border-2 border-blue-500 text-blue-500 font-semibold text-sm rounded-md shadow-md hover:shadow-lg hover:bg-blue-500 hover:text-white hover:border-black hover:scale-105 transition-transform duration-300"
