@@ -50,14 +50,15 @@ const Header = () => {
             rel="noopener noreferrer"
             className="px-6 py-2 bg-black border-2 border-blue-500 text-blue-500 font-semibold text-sm rounded-md shadow-md hover:shadow-lg hover:bg-blue-500 hover:text-white hover:border-black hover:scale-105 transition-transform duration-300"
           > */}
-          <a
-            href="https://drive.google.com/uc?export=download&id=1FCdVUAOqLg6O2owtdfxRuT3OmMzpvCkh"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-6 py-2 bg-black border-2 border-blue-500 text-blue-500 font-semibold text-sm rounded-md shadow-md hover:shadow-lg hover:bg-blue-500 hover:text-white hover:border-black hover:scale-105 transition-transform duration-300"
-          >
-            Resume
-          </a>
+        <a
+  href="/CV_YASH.pdf"
+  download="Yash_Pandey_CV.pdf"
+  className="px-6 py-2 bg-black border-2 border-blue-500 text-blue-500 font-semibold text-sm rounded-md shadow-md hover:shadow-lg hover:bg-blue-500 hover:text-white hover:border-black hover:scale-105 transition-transform duration-300"
+>
+  Resume
+</a>
+
+
         </div>
 
         <div className="md:hidden flex items-center">
