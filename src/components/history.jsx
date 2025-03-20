@@ -3,27 +3,27 @@ import { MapPinIcon } from "@heroicons/react/24/solid";
 
 const experiences = [
   {
-    role: "Frontend Developer Intern",
+    role: "Data Science Intern",
     location: "Lagoon",
     duration: "October 2024 - Present",
     description:
-      "Contributing as the solely intern, primarily responsible for frontend development, creating components with React and Tailwind CSS.",
+      "Worked on Lagoon.works, a robust recruiting software, developing a scalable filtering system to optimizecandidate search.Designed and implemented a resume extraction pipeline using python, done EDA, Data Collection & Cleaning onmany datasets",
   },
   {
-    role: "Web Developer",
+    role: "Frontend Developer",
     location: "Kapliash SSS Pvt. Ltd",
     duration: "May 2024 - July 2024",
     description:
       "Developed, and maintained web applications for NEET and JEE students using HTML, CSS, JavaScript, React.js",
   },
    
-  {
-    role: "Web Developer",
-    location: "ISRO(Indian National Space and Aeronautics Agency)",
-    duration: "Aug 2024 - Sept 2024",
-    description:
-      "Developed, and maintained web applications for ISRO by contributing in their all types of websites",
-  },
+  // {
+  //   role: "Web Developer",
+  //   location: "ISRO(Indian National Space and Aeronautics Agency)",
+  //   duration: "Aug 2024 - Sept 2024",
+  //   description:
+  //     "Developed, and maintained web applications for ISRO by contributing in their all types of websites",
+  // },
 
 ];
 

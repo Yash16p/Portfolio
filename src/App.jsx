@@ -5,7 +5,6 @@ import AboutMe from "./components/aboutme";
 import Timeline from "./components/history";
 import ProjectsGrid from "./components/projects";
 import Contact from "./components/contact";
-import KnowMore from "./components/knowmore";
 
 function App() {
   return (
@@ -22,7 +21,7 @@ function App() {
         Projects
       </h1>
       <ProjectsGrid />
-      <KnowMore />
+      {/* <KnowMore /> */}
       <Contact />
       <footer className="mt-4 mb-4 text-center text-gray-400 text-sm flex flex-col items-center">
         <p>

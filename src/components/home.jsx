@@ -21,7 +21,7 @@ const Home = () => {
         <div className="flex flex-col items-center sm:ml-40 sm:items-start mb-2">
           <div className="flex gap-4 mb-4 sm:mb-2">
             <a
-              href="https://github.com/aggrhythm"
+              href="https://github.com/Yash16p"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-blue-500 text-3xl"
@@ -29,7 +29,7 @@ const Home = () => {
               <FaGithub />
             </a>
             <a
-              href="https://www.linkedin.com/in/rhytham-aggarwal-679821250/"
+              href="https://www.linkedin.com/in/yash-pandey-a608501a0/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-blue-500 text-3xl"
@@ -59,11 +59,10 @@ const Home = () => {
               <span style={{ color: "white" }}>
                 <Typewriter
                   words={[
-                    "Web Developer",
                     "Data Scientist",
+                    "AI/ML Developer",
+                    "Web Developer",
                     "Software Developer",
-                    // "ML Developer",
-                    "Problem Solver",
                   ]}
                   loop={true}
                   cursor

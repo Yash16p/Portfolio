@@ -1,58 +1,47 @@
 import React from "react";
 
 import image2 from "../assets/shopi.jpg";
-import image3 from "../assets/rooftop.jpg";
-import image4 from "../assets/road.jpg";
-import image5 from "../assets/genai.png";
-import banana from '../assets/ba.png'
-import pi from '../assets/pi.png'
-import travel from '../assets/travel.png'
+import kisan from "../assets/ksian.jpg"
+import pi from '../assets/ns.jpg'
+import np from '../assets/ns.png'
 
 
 
 
 const projects = [
 
-  // {
-  //   id: 1,
-  //   name: "Banana Chips remake",
-  //   description:
-  //     "A remake of the original Kerala Banana Chips website, created as a practice project. This responsive website highlights the rich flavors of traditional Kerala banana chips with an appealing design, smooth navigation, and a focus on showcasing the product’s authenticity and quality.",
-  //   image: banana,
-  //   link: "https://web4-script-reimagine-round1.vercel.app/",
-  //   techStack: ["React", "Tailwind CSS", "Nodejs", "DALLE"],
-  // },
+  {
+    id: 1,
+    name: "KisanSeva: Revolutionizing Farming with AI & IoT",
+    description:
+     "An innovative app designed to empower farmers with advanced technology. Key features include real-time monitoring of soil conditions, automated irrigation based on machine learning predictions, access to up-to-date agricultural news, a personalized chatbot for farming advice, real-time weather updates, and AI-powered plant disease diagnosis through camera technology. This comprehensive app offers farmers a range of tools to optimize their farming practices and improve yields.",
+    image: kisan,
+    link: "https://github.com/Yash16p/farmer-help",
+    techStack: ["React Native", "Python", "Machine Learning", "FAST API"],
+  },
 
   {
     id: 2,
-    name: "Clothing Website",
+    name: "Network Security",
     description:
-      "Designed and developed a modern and responsive clothing website, Pineapple.in, showcasing a variety of trendy apparel. This project emphasizes a user-friendly interface, engaging product displays, and seamless navigation to enhance the online shopping experience.",
+      "Designed and implemented a machine learning pipeline for phishing detection, including data ingestion, validation,transformation, model training, and deployment using deployed Developed modular components for data preprocessing, feature engineering, and model training with reusable configurations.Automated the training pipeline with logging and exception handling to ensure reliability",
     image: pi,
-    link: "https://www.thepineapple.in/",
-    techStack: ["React", "Tailwind CSS", "Nodejs", "DALLE"],
+    link: "https://github.com/Yash16p/Network-Security",
+    techStack: ["Python", "FastAPI", "MongoDB", "AWS CLI", "Docker", "S3 bucket"],
   },
 
   {
     id: 3,
-    name: "Travel Website",
+    name: "Number Plate Recognition System",
     description:
-      "Developed a responsive and visually appealing travel website that showcases stunning destinations and travel experiences. The site features smooth animations, intuitive navigation, and vibrant imagery to inspire users to explore and plan their next adventure.",
-    image: travel,
-    link: "https://travel-pi-six.vercel.app/",
-    techStack: ["React", "Tailwind CSS", "Nodejs", "DALLE"],
+      "Achieved 97.01% accuracy using, successfully detects and recognizes Indian number plates,CNN architecture with Conv2D,MaxPooling, Dropout, and Dense layers.Uses categorical cross-entropy loss and Adam optimizer",
+    image: np,
+    link: "https://github.com/Yash16p/Number-Plater-Recoginition-System",
+    techStack: ["Python", ", Tensorflow with keras", "opencv", ",python libraries"],
   },
+
   {
     id: 4,
-    name: "Road Extraction",
-    description:
-      "We developed an innovative solution leveraging satellite imagery and AI techniques to automatically detect road developments and generate timely alerts. This system aimed to aid infrastructure planning and monitoring by providing accurate geographical insights",
-    image: image4,
-    link: "https://road-extraction.vercel.app/",
-    techStack: ["React", "Tailwind CSS", "Vite"],
-  },
-  {
-    id: 5,
     name: "ShopApp",
     description:
       "I developed **ShopApp**, an e-commerce website, designed to provide a seamless shopping experience. Enabling users to browse products, add items to the cart, and manage purchases effortlessly. With state management and API integration, ShopApp ensures smooth navigation and real-time updates, making it a robust and user-friendly platform for online shopping.",

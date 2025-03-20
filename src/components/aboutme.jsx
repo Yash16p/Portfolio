@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { FaReact, FaPython, FaGit, FaFigma } from "react-icons/fa";
 import { SiCplusplus, SiTailwindcss, SiJavascript, SiTypescript } from "react-icons/si";
+import { LuBrainCircuit } from "react-icons/lu";
 import Popup from "./popup";
 import image1 from "../assets/sih.jpg"
 import image3 from "../assets/isro.png"
@@ -82,7 +83,7 @@ const AboutMe = () => {
           <span>ADGIPS |  2022-2026</span>
         </p>
         <p className="text-sm sm:text-md mb-8 text-gray-200">
-          I'm a AI&DS undergrad with a passion for crafting dynamic websites and diving deep into the world of machine learning. Alongside this, I'm sharpening my problem-solving skills in data structures and algorithms, mainly in C++. Hackathons? Count me in. Networking? I’m all for it. On the right, you'll find the tech stack I'm fluent in.
+        I am a Data Science enthusiast with experience in AI/ML, data analysis,frontend and backend development. I have worked as a Data Science Intern at Lagoon, where I gained hands-on experience in model development and analytics. I was a finalist at Smart India Hackathon (SIH) 2024 and ranked in the top 12 at the Bhartiya Antriksh Hackathon (ISRO). Passionate about solving real-world problems.
           <br />
           <p className="text-sm sm:text-md mt-2 text-gray-500 font-bold italic border-l-4 border-blue-500 pl-4">
             "I code, I solve, I innovate – and yes, I probably broke something along the
@@ -117,7 +118,7 @@ const AboutMe = () => {
               }
             />
            
-            <AchievementCard
+            {/* <AchievementCard
               title="DSA Achievements"
               description="Solved 100+ problems on LeetCode and achieved significant ranks on CodeChef"
               onSeeMore={() =>
@@ -138,7 +139,7 @@ const AboutMe = () => {
                   "I created a dynamic e-commerce website for our college's Animeverse society. The platform was designed to streamline merchandise sales, featuring user-friendly navigation, secure payment integration, and an appealing UI/UX. This project involved the use of ReactJS for frontend development, Firebase for backend services, and TailwindCSS for styling, ensuring a seamless and engaging shopping experience for users."
                 )
               }
-            />
+            /> */}
             {popupData.isOpen && (
               <Popup
                 title={popupData.title}
@@ -155,11 +156,10 @@ const AboutMe = () => {
   <TechIcon icon={<FaReact />} color="#61DAFB" label="React" size="40px" show={showIcons} delay="0s" />
   <TechIcon icon={<FaPython />} color="#3776AB" label="Python" size="40px" show={showIcons} delay="0.2s" />
   <TechIcon icon={<SiCplusplus />} color="#00599C" label="C++" size="40px" show={showIcons} delay="0.4s" />
-  <TechIcon icon={<SiTailwindcss />} color="#06B6D4" label="TailwindCSS" size="40px" show={showIcons} delay="0.6s" />
+  <TechIcon icon={<LuBrainCircuit />} color="#06B6D4" label="Machine Learning" size="40px" show={showIcons} delay="0.6s" />
   {/* <TechIcon icon={<FaFigma />} color="#F24E1E" label="Figma" size="40px" show={showIcons} delay="0.8s" /> */}
   <TechIcon icon={<FaGit />} color="#F05033" label="Git" size="40px" show={showIcons} delay="1s" />
   <TechIcon icon={<SiJavascript />} color="#F7DF1E" label="JavaScript" size="40px" show={showIcons} delay="1.2s" />
-  <TechIcon icon={<SiTypescript />} color="#3178C6" label="TypeScript" size="40px" show={showIcons} delay="1.4s" />
 </div>
 
 
