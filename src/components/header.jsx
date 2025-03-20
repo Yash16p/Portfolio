@@ -45,7 +45,7 @@ const Header = () => {
             </a>
           </nav>
           <a
-            href="https://drive.google.com/drive/home?dmr=1&ec=wgc-drive-hero-goto"
+            href="https://drive.google.com/file/d/1FCdVUAOqLg6O2owtdfxRuT3OmMzpvCkh/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-2 bg-black border-2 border-blue-500 text-blue-500 font-semibold text-sm rounded-md shadow-md hover:shadow-lg hover:bg-blue-500 hover:text-white hover:border-black hover:scale-105 transition-transform duration-300"
