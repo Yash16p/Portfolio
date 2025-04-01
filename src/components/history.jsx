@@ -3,12 +3,11 @@ import { MapPinIcon } from "@heroicons/react/24/solid";
 
 const experiences = [
   {
-    role: "Data Science Intern",
-    location: "Lagoon",
-    duration: "October 2024 - Present",
+    role: "AI/ML Intern",
+    location: "Dategain",
+    duration: "March 2025 - Present",
     description:
-      "Worked on Lagoon.works, a robust recruiting software, developing a scalable filtering system to optimizecandidate search.Designed and implemented a resume extraction pipeline using python, done EDA, Data Collection & Cleaning onmany datasets",
-  },
+      "Developed an AI-powered BIO generator and prompt generator to enhance user engagement on a dating app, leveragingNLP and deep learning techniques.Implemented EDA, Data Cleaning, Feature Engineering on large-scale datasets.Designed dashboards using Power BI to visualize hiring trends"},
   {
     role: "Frontend Developer",
     location: "Kapliash SSS Pvt. Ltd",
