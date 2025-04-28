@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "../index.css";
 import logo from "../assets/n.png";
+import resume from "../assets/YASH PANDEY-RESUME.pdf"
+
+
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isLogoAnimated, setIsLogoAnimated] = useState(false);
@@ -44,19 +47,12 @@ const Header = () => {
               <span className="underline-effect">Contact</span>
             </a>
           </nav>
-          {/* <a
-            href="https://drive.google.com/file/d/1FCdVUAOqLg6O2owtdfxRuT3OmMzpvCkh/uc?export=download"
-            target="_blank"
-            rel="noopener noreferrer"
+          <a
+          href={resume} download="Yash Pandey-RESUME.pdf"
             className="px-6 py-2 bg-black border-2 border-blue-500 text-blue-500 font-semibold text-sm rounded-md shadow-md hover:shadow-lg hover:bg-blue-500 hover:text-white hover:border-black hover:scale-105 transition-transform duration-300"
-          > */}
-        <a
-  href="/CV_YASH.pdf"
-  download="Yash_Pandey_CV.pdf"
-  className="px-6 py-2 bg-black border-2 border-blue-500 text-blue-500 font-semibold text-sm rounded-md shadow-md hover:shadow-lg hover:bg-blue-500 hover:text-white hover:border-black hover:scale-105 transition-transform duration-300"
->
-  Resume
-</a>
+          >
+            Resume
+          </a>
 
 
         </div>

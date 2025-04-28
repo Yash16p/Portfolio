@@ -83,7 +83,7 @@ const AboutMe = () => {
           <span>ADGIPS |  2022-2026</span>
         </p>
         <p className="text-sm sm:text-md mb-8 text-gray-200">
-        I am a Data Science enthusiast with experience in AI/ML, data analysis,frontend and backend development. I have worked as a Data Science Intern at Lagoon, where I gained hands-on experience in model development and analytics. I was a finalist at Smart India Hackathon (SIH) 2024 and ranked in the top 12 at the Bhartiya Antriksh Hackathon (ISRO). Passionate about solving real-world problems.
+        I am a Data Science enthusiast with experience in AI/ML, data analysis,frontend and backend development. I have worked as a AI/ML Intern at Dategain, where I gained hands-on experience in NLP & Deep Learning. I was a finalist at Smart India Hackathon (SIH) 2024 and ranked in the top 12 at the Bhartiya Antriksh Hackathon (ISRO). Passionate about solving real-world problems.
           <br />
           <p className="text-sm sm:text-md mt-2 text-gray-500 font-bold italic border-l-4 border-blue-500 pl-4">
             "I code, I solve, I innovate – and yes, I probably broke something along the

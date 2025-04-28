@@ -59,10 +59,10 @@ const Home = () => {
               <span style={{ color: "white" }}>
                 <Typewriter
                   words={[
-                    "Data Scientist",
                     "AI/ML Developer",
-                    "Web Developer",
-                    "Software Developer",
+                    "Data Scientist",
+                    // "Web Developer",
+                    // "Software Developer",
                   ]}
                   loop={true}
                   cursor
