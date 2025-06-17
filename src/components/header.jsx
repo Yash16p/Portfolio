@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../index.css";
 import logo from "../assets/n.png";
-import resume from "../assets/YASH PANDEY-RESUME.pdf"
+import resume from "../assets/YASH-PANDEY-RESUME.pdf"
 
 
 const Header = () => {

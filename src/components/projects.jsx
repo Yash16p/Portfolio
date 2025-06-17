@@ -1,6 +1,6 @@
 import React from "react";
 
-import image2 from "../assets/shopi.jpg";
+import image2 from "../assets/trading.jpg";
 import kisan from "../assets/ksian.jpg"
 import pi from '../assets/ns.jpg'
 import np from '../assets/ns.png'
@@ -37,17 +37,17 @@ const projects = [
       "Achieved 97.01% accuracy using, successfully detects and recognizes Indian number plates,CNN architecture with Conv2D,MaxPooling, Dropout, and Dense layers.Uses categorical cross-entropy loss and Adam optimizer",
     image: np,
     link: "https://github.com/Yash16p/Number-Plater-Recoginition-System",
-    techStack: ["Python", ", Tensorflow with keras", "opencv", ",python libraries"],
+    techStack: ["Python", "Tensorflow with keras", "opencv", "python libraries"],
   },
 
   {
     id: 4,
-    name: "ShopApp",
+    name: "Quant(Trading Project)",
     description:
-      "I developed **ShopApp**, an e-commerce website, designed to provide a seamless shopping experience. Enabling users to browse products, add items to the cart, and manage purchases effortlessly. With state management and API integration, ShopApp ensures smooth navigation and real-time updates, making it a robust and user-friendly platform for online shopping.",
+      "Developed a machine learning model to predict short-term price movements (>0.5% within 5 minutes) with 81.33%accuracy by optimizing a feature set of 20+ technical indicators (RSI, MACD, Bollinger Bands) and engineered interaction features",
     image: image2,
     link: "https://github.com/Yash16p/shopapp",
-    techStack: ["React", "Tailwind CSS", "Figma",],
+    techStack: ["Python", "Bayesian Optimization", "XGBoost", "Logistic Regression"],
   },
   // {
   //   id: 3,
